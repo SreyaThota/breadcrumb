@@ -1,0 +1,11 @@
+# Breadcrumb Core Dependencies
+# -------------------------------------------------------------
+# Breadcrumb is designed with ZERO required external dependencies.
+# It runs 100% locally on standard Python 3.10+ using built-in libraries:
+# - tkinter (native desktop GUI)
+# - sqlite3 (embedded local database)
+# - ctypes (Windows foreground window API)
+# - unittest (test suite)
+
+# Optional Development / Test Dependencies:
+pytest>=7.0.0

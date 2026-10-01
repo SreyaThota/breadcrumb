@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases, state, and logs
+*.db
+*.sqlite3
+breadcrumb.db
+*.log
+settings.json
+
+# Environments and credentials
+.env
+.env.*
+.venv/
+env/
+venv/
+ENV/
+
+# IDE and Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System artifacts
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Testing and profiling artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
